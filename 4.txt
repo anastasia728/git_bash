@@ -1,0 +1,3 @@
+row1\nrow2\nrow3\nrow4
+fail
+test
