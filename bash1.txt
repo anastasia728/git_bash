@@ -1,0 +1,31 @@
+    1  pwd
+    2  mkdir test1
+    3  cd test1
+    4  touch 1 2 3
+    5  ls
+    6  cd
+    7  mkdir test2
+    8  rm -test2
+    9  cd bash1.txt
+   10  mkdir test2
+   11  rm -r test2
+   12  rm -r 2
+   13  rm -r test1/2
+   14  mkdir test3
+   15  touch test3/file1 test3/file2
+   16  rm -r test3
+   17  mkdir test4
+   18  mv test1/1 test1/3 test4
+   19  echo "line1\nline2\nline3" >> test4/1
+   20  cat test4/1
+   21  echo "line1\nline2\nline3" >> test4/3
+   22  cat test4/1 test4/3
+   23  nano
+   24  nano 1
+   25  nano 1
+   26  nano 1
+   27  nano 1
+   28  nano 
+   29  nano bash1.txt
+   30  nano
+   31  history > bash1.txt
