@@ -1,0 +1,36 @@
+    1  mkdir test3
+    2  cd test3
+    3  echo "row1\nrow2\nrow3\nrow4" > 4
+    4  echo "row1\nrow2\nrow3\nrow4" > 5
+    5  echo "row1\nrow2\nrow3\nrow4" > 6
+    6  grep row2 5
+    7  grep -r "row" .
+    8  grep -c "row" 6
+    9  find test3 -name 5
+   10  find test3 -5
+   11  find test/ 5
+   12  cd test3 -name5
+   13  cd test3/5
+   14  find test3 -name 5 -delete
+   15  find .-test3 -5
+   16  find .-name 5
+   17  find /var/test3/ -name5
+   18  find /var/test3/5
+   19   find . -type f -name 5
+   20   find . -name 5 -delete
+   21  echo "test" >> 4
+   22  sed -i 's/test/fail/g' 4
+   23  echo "test" >> 4
+   24  ps aux
+   25  kill 666
+   26  sudo kill 666
+   27  ps auxf
+   28  ps aux --sort=-%cpu
+   29  ps -u
+   30  kill -9 666
+   31  kill 1684
+   32  ping rusau.net
+   33  ping -c 5 rusau.net
+   34  curl https://petstore.swagger.io/pet/findByStatus?status=available -X GET
+   35  curl https://petstore.swagger.io/user -d '{"username": "example", "firstName": "John", "lastName": "Doe", "email": "johndoe@example.com"}' -H "Content-Type: application/json" -X POST
+   36  history > bash2.txt
